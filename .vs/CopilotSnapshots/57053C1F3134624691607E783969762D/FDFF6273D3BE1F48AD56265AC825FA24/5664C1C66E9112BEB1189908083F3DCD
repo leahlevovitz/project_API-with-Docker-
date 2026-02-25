@@ -1,0 +1,110 @@
+﻿using api_server.Models;
+using server_API.DTO;
+using System.Reflection;
+using WebApplication1.BLL.interfaces;
+using WebApplication1.DAL.interfaces;
+
+public class LotteryBLL : ILotteryBLL
+{
+    private readonly ILotteryDAL _repository;
+
+    public LotteryBLL(
+        ILotteryDAL repository)
+        //IEmailService emailService
+    {
+        _repository = repository;
+        //_emailService = emailService;
+    }
+
+    public async Task<Lotteries> PerformLotteryAsync(int giftId)
+    {
+        var alreadyExists = await _repository.HasWinnerForGiftAsync(giftId);
+
+        if (alreadyExists)
+            throw new Exception("כבר בוצעה הגרלה למתנה זו");
+
+        // 1️⃣ שליפת מתנה
+        var gift = await _repository.GetGiftByIdAsync(giftId);
+
+        if (gift == null)
+            throw new Exception("המתנה לא קיימת");
+
+        // 2️⃣ בדיקה שיש רכישות
+        if (gift.Purchases == null || gift.Purchases.Count == 0)
+            throw new Exception("אין רכישות למתנה זו");
+
+        // 3️⃣ כמות זוכים
+        int winnersCount = gift.Quantity;
+
+        if (winnersCount <= 0)
+            throw new Exception("כמות מתנות לא חוקית");
+
+        //if (gift.Purchases.Count < winnersCount)
+        //    throw new Exception("אין מספיק רוכשים לכמות המתנות");
+
+        var random = new Random();
+
+        // 4️⃣ ערבוב רכישות ובחירת זוכים
+        var selectedPurchases = gift.Purchases
+            .OrderBy(x => random.Next())
+            .Take(winnersCount)
+            .ToList();
+
+        Lotteries lastWinner = null;
+
+        foreach (var purchase in selectedPurchases)
+        {
+            if (purchase.User == null)
+                throw new Exception("נתוני משתמש חסרים");
+
+            var winner = new Lotteries
+            {
+                GiftId = gift.Id,
+                UserId = purchase.UserId,
+                LotteryDate = DateTime.Now
+            };
+
+            await _repository.AddWinnerAsync(winner);
+
+            gift.IsLocked = true;
+            await _repository.SaveChangesAsync(); // שומר את השינוי בבסיס הנתונים
+
+
+            // ✉️ שליחת מייל
+            //await _emailService.SendWinnerEmailAsync(
+            //    purchase.User.Email,
+            //    gift.Name
+            //);
+
+            lastWinner = winner;
+        }
+
+        // 5️⃣ מחזירים זוכה אחרון (כדי לא לשבור חתימה קיימת)
+        return lastWinner;
+    }
+
+
+    // ------------------ שלב 2: דוח זוכים לפי מתנה ------------------
+    public async Task<List<Lotteries>> GetWinnersForGiftAsync(int giftId)
+    {
+        // שולח בקשה ל־DAL לקבל את כל הזוכים עבור המתנה
+        return await _repository.GetWinnersByGiftAsync(giftId);
+    }
+
+
+    public async Task<List<GiftWinnersDTO>> GetAllGiftsWithWinnersAsync()
+    {
+        var gifts = await _repository.GetAllGiftsWithWinnersAsync();
+
+        return gifts.Select(g => new GiftWinnersDTO
+        {
+            GiftId = g.Id,
+            GiftName = g.Name,
+            Winners = g.Lotteries
+                .Select(l => l.User.Name)
+                .ToList()
+        }).ToList();
+    }
+}
+
+

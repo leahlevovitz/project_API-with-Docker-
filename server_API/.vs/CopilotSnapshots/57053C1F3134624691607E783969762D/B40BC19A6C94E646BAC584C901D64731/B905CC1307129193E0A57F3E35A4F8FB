@@ -1,0 +1,99 @@
+﻿using api_server.Models;
+using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using server_API.BLL;
+using server_API.DTO;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace server_API.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class DonorsController : ControllerBase
+    {
+        private readonly IDonorBLL _BLL;
+        private readonly IMapper _mapper;
+
+        public DonorsController(IDonorBLL Bll, IMapper mapper)
+        {
+            _BLL = Bll;
+            _mapper = mapper;
+        }
+
+        // GET: api/donors
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var donors = await _BLL.GetAllDonors();
+            var dto = _mapper.Map<List<DonorDTO>>(donors);
+            return Ok(dto);
+        }
+
+        // GET: api/donors/5
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var donor = await _BLL.GetDonorById(id);
+            if (donor == null)
+                return NotFound();
+
+            var dto = _mapper.Map<DonorDTO>(donor);
+            return Ok(dto);
+        }
+
+        // GET: api/donors/filter
+        [HttpGet("filter")]
+        public async Task<IActionResult> Filter(string? name, string? email, string? gift)
+        {
+            var donors = await _BLL.FilterDonors(name, email, gift);
+            var dto = _mapper.Map<List<DonorDTO>>(donors);
+            return Ok(dto);
+        }
+
+        // POST: api/donors
+        [HttpPost]
+        public async Task<IActionResult> Create(DonorDTO dto)
+        {
+            // בדיקת ModelState
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var donor = _mapper.Map<Donor>(dto);
+            await _BLL.AddDonor(donor);
+
+            var resultDto = _mapper.Map<DonorDTO>(donor);
+            return CreatedAtAction(nameof(GetById), new { id = donor.Id }, resultDto);
+        }
+
+        // PUT: api/donors/5
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, DonorDTO dto)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var donor = await _BLL.GetDonorById(id);
+            if (donor == null)
+                return NotFound();
+
+
+            _mapper.Map(dto, donor);
+            await _BLL.UpdateDonor(donor);
+
+            return Ok(donor);
+        }
+
+        // DELETE: api/donors/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var donor = await _BLL.GetDonorById(id);
+            if (donor == null)
+                return NotFound();
+
+            await _BLL.DeleteDonor(donor);
+            return NoContent();
+        }
+    }
+}

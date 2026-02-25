@@ -1,0 +1,935 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\model\\gift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\model\\gift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\model\\lotteries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\model\\lotteries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\model\\purchaser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\model\\purchaser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dto\\giftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dto\\giftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dal\\giftdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dal\\giftdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dal\\purchaserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dal\\purchaserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\controllers\\giftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\controllers\\giftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\bll\\giftbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\bll\\giftbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\controllers\\purchaserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\controllers\\purchaserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dto\\purchaserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dto\\purchaserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\bll\\purchaserbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\bll\\purchaserbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\bll\\lotterybll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\bll\\lotterybll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\model\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\model\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\controllers\\lotterycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\controllers\\lotterycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\bll\\ilotterybll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\bll\\ilotterybll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\controllers\\donorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\controllers\\donorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\server_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\server_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dal\\donordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dal\\donordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\controllers\\aouthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\controllers\\aouthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\bll\\donorbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\bll\\donorbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dal\\lotterydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dal\\lotterydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\tests\\controllertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\tests\\controllertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\bll\\idonorbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\bll\\idonorbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\tests\\giftblltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\tests\\giftblltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\logs\\log-20260123.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\logs\\log-20260123.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dto\\donordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dto\\donordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dto\\lotterydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dto\\lotterydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dto\\totalrevenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dto\\totalrevenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dto\\giftwinnersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dto\\giftwinnersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dal\\ipurchaserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dal\\ipurchaserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\bll\\ipurchaserbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\bll\\ipurchaserbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dal\\ilotterydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dal\\ilotterydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dal\\igiftdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dal\\igiftdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\dal\\idonordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\dal\\idonordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\server_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\server_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\l0583\\Desktop\\\u200F\u200F\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA \u05DB\u05D9\u05EA\u05D4 - \u05E2\u05D5\u05EA\u05E7\\server_API\\server_API\\Migrations\\20260122224948_RemovePurchasersCountOnly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\l0583\\Desktop\\\u200F\u200F\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA \u05DB\u05D9\u05EA\u05D4 - \u05E2\u05D5\u05EA\u05E7\\server_API\\server_API\\Migrations\\20260122224246_RemovePurchasersCountFromGifts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\WebApplication1\\WebApplication1\\DTO\\Auth\\LoginDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\329111975\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\server_API\\server_API\\Migrations\\20251229141302_aaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\bll\\igiftbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\bll\\igiftbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\migrations\\20251229175719_gg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\migrations\\20251229175719_gg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\migrations\\20260123020942_addstatustogift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\migrations\\20260123020942_addstatustogift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\migrations\\20260123031146_aj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\migrations\\20260123031146_aj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\migrations\\20260123005339_addimagetogift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\migrations\\20260123005339_addimagetogift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\migrations\\20260122225902_removepurchaserscountfromgifts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\migrations\\20260122225902_removepurchaserscountfromgifts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\migrations\\20260125221335_nameofyourmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\migrations\\20260125221335_nameofyourmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|c:\\users\\l0583\\desktop\\webapi\\server_api\\server_api\\migrations\\20260207201938_addq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4DC315-E1E5-4A90-8047-33959B009071}|server_API\\server_API.csproj|solutionrelative:server_api\\migrations\\20260207201938_addq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LotteryBLL.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\BLL\\LotteryBLL.cs",
+              "RelativeDocumentMoniker": "server_API\\BLL\\LotteryBLL.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\BLL\\LotteryBLL.cs",
+              "RelativeToolTip": "server_API\\BLL\\LotteryBLL.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAMwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T14:58:32.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gift.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Model\\Gift.cs",
+              "RelativeDocumentMoniker": "server_API\\Model\\Gift.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Model\\Gift.cs",
+              "RelativeToolTip": "server_API\\Model\\Gift.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA/wCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T20:46:00.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PurchaserBLL.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\BLL\\PurchaserBLL.cs",
+              "RelativeDocumentMoniker": "server_API\\BLL\\PurchaserBLL.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\BLL\\PurchaserBLL.cs",
+              "RelativeToolTip": "server_API\\BLL\\PurchaserBLL.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAIAwwH0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:50:28.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PurchasersController.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Controllers\\PurchasersController.cs",
+              "RelativeDocumentMoniker": "server_API\\Controllers\\PurchasersController.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Controllers\\PurchasersController.cs",
+              "RelativeToolTip": "server_API\\Controllers\\PurchasersController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAowH4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:27:33.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GiftBLL.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\BLL\\GiftBLL.cs",
+              "RelativeDocumentMoniker": "server_API\\BLL\\GiftBLL.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\BLL\\GiftBLL.cs",
+              "RelativeToolTip": "server_API\\BLL\\GiftBLL.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAAswNYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T20:40:46.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GiftController.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Controllers\\GiftController.cs",
+              "RelativeDocumentMoniker": "server_API\\Controllers\\GiftController.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Controllers\\GiftController.cs",
+              "RelativeToolTip": "server_API\\Controllers\\GiftController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAgwGcAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T20:40:41.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Purchaser.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Model\\Purchaser.cs",
+              "RelativeDocumentMoniker": "server_API\\Model\\Purchaser.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Model\\Purchaser.cs",
+              "RelativeToolTip": "server_API\\Model\\Purchaser.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T15:10:29.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PurchaserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DTO\\PurchaserDTO.cs",
+              "RelativeDocumentMoniker": "server_API\\DTO\\PurchaserDTO.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DTO\\PurchaserDTO.cs",
+              "RelativeToolTip": "server_API\\DTO\\PurchaserDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:47:10.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GiftDTO.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DTO\\GiftDTO.cs",
+              "RelativeDocumentMoniker": "server_API\\DTO\\GiftDTO.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DTO\\GiftDTO.cs",
+              "RelativeToolTip": "server_API\\DTO\\GiftDTO.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwB8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T20:41:15.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PurchaserDAL.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\PurchaserDAL.cs",
+              "RelativeDocumentMoniker": "server_API\\DAL\\PurchaserDAL.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\PurchaserDAL.cs",
+              "RelativeToolTip": "server_API\\DAL\\PurchaserDAL.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAADwvwYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:38:05.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GiftDAL.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\GiftDAL.cs",
+              "RelativeDocumentMoniker": "server_API\\DAL\\GiftDAL.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\GiftDAL.cs",
+              "RelativeToolTip": "server_API\\DAL\\GiftDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T20:51:14.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lotteries.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Model\\Lotteries.cs",
+              "RelativeDocumentMoniker": "server_API\\Model\\Lotteries.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Model\\Lotteries.cs",
+              "RelativeToolTip": "server_API\\Model\\Lotteries.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T16:04:17.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Donor.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Model\\Donor.cs",
+              "RelativeDocumentMoniker": "server_API\\Model\\Donor.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Model\\Donor.cs",
+              "RelativeToolTip": "server_API\\Model\\Donor.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T00:46:11.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Program.cs",
+              "RelativeDocumentMoniker": "server_API\\Program.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Program.cs",
+              "RelativeToolTip": "server_API\\Program.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAFMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T01:17:52.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "server_API.http",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\server_API.http",
+              "RelativeDocumentMoniker": "server_API\\server_API.http",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\server_API.http",
+              "RelativeToolTip": "server_API\\server_API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-02-11T15:49:44.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ILotteryBLL.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\BLL\\ILotteryBLL.cs",
+              "RelativeDocumentMoniker": "server_API\\BLL\\ILotteryBLL.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\BLL\\ILotteryBLL.cs",
+              "RelativeToolTip": "server_API\\BLL\\ILotteryBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T14:59:11.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DonorController.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Controllers\\DonorController.cs",
+              "RelativeDocumentMoniker": "server_API\\Controllers\\DonorController.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Controllers\\DonorController.cs",
+              "RelativeToolTip": "server_API\\Controllers\\DonorController.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAwwLIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T00:35:40.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LotteryController.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Controllers\\LotteryController.cs",
+              "RelativeDocumentMoniker": "server_API\\Controllers\\LotteryController.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Controllers\\LotteryController.cs",
+              "RelativeToolTip": "server_API\\Controllers\\LotteryController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T15:01:19.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DonorDAL.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\DonorDAL.cs",
+              "RelativeDocumentMoniker": "server_API\\DAL\\DonorDAL.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\DonorDAL.cs",
+              "RelativeToolTip": "server_API\\DAL\\DonorDAL.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwDwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T00:34:34.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AouthController.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Controllers\\AouthController.cs",
+              "RelativeDocumentMoniker": "server_API\\Controllers\\AouthController.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Controllers\\AouthController.cs",
+              "RelativeToolTip": "server_API\\Controllers\\AouthController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T16:09:03.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "server_API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "server_API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T00:29:49.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DonorBLL.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\BLL\\DonorBLL.cs",
+              "RelativeDocumentMoniker": "server_API\\BLL\\DonorBLL.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\BLL\\DonorBLL.cs",
+              "RelativeToolTip": "server_API\\BLL\\DonorBLL.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T00:34:58.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "server_API\\DAL\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\AppDbContext.cs",
+              "RelativeToolTip": "server_API\\DAL\\AppDbContext.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwDYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T01:10:08.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LotteryDAL.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\LotteryDAL.cs",
+              "RelativeDocumentMoniker": "server_API\\DAL\\LotteryDAL.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\LotteryDAL.cs",
+              "RelativeToolTip": "server_API\\DAL\\LotteryDAL.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T15:00:05.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GiftBLLTests.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Tests\\GiftBLLTests.cs",
+              "RelativeDocumentMoniker": "server_API\\Tests\\GiftBLLTests.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Tests\\GiftBLLTests.cs",
+              "RelativeToolTip": "server_API\\Tests\\GiftBLLTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T00:23:20.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Tests\\ControllerTests.cs",
+              "RelativeDocumentMoniker": "server_API\\Tests\\ControllerTests.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Tests\\ControllerTests.cs",
+              "RelativeToolTip": "server_API\\Tests\\ControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T00:29:50.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "log-20260123.txt",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Logs\\log-20260123.txt",
+              "RelativeDocumentMoniker": "server_API\\Logs\\log-20260123.txt",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Logs\\log-20260123.txt",
+              "RelativeToolTip": "server_API\\Logs\\log-20260123.txt",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-02-11T00:06:46.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DonorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DTO\\DonorDTO.cs",
+              "RelativeDocumentMoniker": "server_API\\DTO\\DonorDTO.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DTO\\DonorDTO.cs",
+              "RelativeToolTip": "server_API\\DTO\\DonorDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T00:34:49.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Model\\User.cs",
+              "RelativeDocumentMoniker": "server_API\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Model\\User.cs",
+              "RelativeToolTip": "server_API\\Model\\User.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwBoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T15:10:22.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IDonorBLL.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\BLL\\IDonorBLL.cs",
+              "RelativeDocumentMoniker": "server_API\\BLL\\IDonorBLL.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\BLL\\IDonorBLL.cs",
+              "RelativeToolTip": "server_API\\BLL\\IDonorBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T21:35:32.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TotalRevenueDTO.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DTO\\TotalRevenueDTO.cs",
+              "RelativeDocumentMoniker": "server_API\\DTO\\TotalRevenueDTO.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DTO\\TotalRevenueDTO.cs",
+              "RelativeToolTip": "server_API\\DTO\\TotalRevenueDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T20:58:24.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LotteryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DTO\\LotteryDTO.cs",
+              "RelativeDocumentMoniker": "server_API\\DTO\\LotteryDTO.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DTO\\LotteryDTO.cs",
+              "RelativeToolTip": "server_API\\DTO\\LotteryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T15:02:33.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DTO\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "server_API\\DTO\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DTO\\RegisterDTO.cs",
+              "RelativeToolTip": "server_API\\DTO\\RegisterDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T15:34:18.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "server_API\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "server_API\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T16:07:41.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GiftWinnersDTO.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DTO\\GiftWinnersDTO.cs",
+              "RelativeDocumentMoniker": "server_API\\DTO\\GiftWinnersDTO.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DTO\\GiftWinnersDTO.cs",
+              "RelativeToolTip": "server_API\\DTO\\GiftWinnersDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T20:40:01.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IPurchaserDAL.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\IPurchaserDAL.cs",
+              "RelativeDocumentMoniker": "server_API\\DAL\\IPurchaserDAL.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\IPurchaserDAL.cs",
+              "RelativeToolTip": "server_API\\DAL\\IPurchaserDAL.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAtwAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:33:30.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "server_API\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "server_API\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAMwBQAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T20:41:34.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IPurchaserBLL.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\BLL\\IPurchaserBLL.cs",
+              "RelativeDocumentMoniker": "server_API\\BLL\\IPurchaserBLL.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\BLL\\IPurchaserBLL.cs",
+              "RelativeToolTip": "server_API\\BLL\\IPurchaserBLL.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:46:13.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ILotteryDAL.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\ILotteryDAL.cs",
+              "RelativeDocumentMoniker": "server_API\\DAL\\ILotteryDAL.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\ILotteryDAL.cs",
+              "RelativeToolTip": "server_API\\DAL\\ILotteryDAL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T15:00:38.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20260207201938_addQ.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Migrations\\20260207201938_addQ.cs",
+              "RelativeDocumentMoniker": "server_API\\Migrations\\20260207201938_addQ.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Migrations\\20260207201938_addQ.cs",
+              "RelativeToolTip": "server_API\\Migrations\\20260207201938_addQ.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T20:19:39.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IGiftDAL.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\IGiftDAL.cs",
+              "RelativeDocumentMoniker": "server_API\\DAL\\IGiftDAL.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\IGiftDAL.cs",
+              "RelativeToolTip": "server_API\\DAL\\IGiftDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T14:10:42.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IDonorDAL.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\IDonorDAL.cs",
+              "RelativeDocumentMoniker": "server_API\\DAL\\IDonorDAL.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\DAL\\IDonorDAL.cs",
+              "RelativeToolTip": "server_API\\DAL\\IDonorDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T01:15:23.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20260125221335_NameOfYourMigration.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Migrations\\20260125221335_NameOfYourMigration.cs",
+              "RelativeDocumentMoniker": "server_API\\Migrations\\20260125221335_NameOfYourMigration.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Migrations\\20260125221335_NameOfYourMigration.cs",
+              "RelativeToolTip": "server_API\\Migrations\\20260125221335_NameOfYourMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T22:13:35.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20260123031146_Aj.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Migrations\\20260123031146_Aj.cs",
+              "RelativeDocumentMoniker": "server_API\\Migrations\\20260123031146_Aj.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Migrations\\20260123031146_Aj.cs",
+              "RelativeToolTip": "server_API\\Migrations\\20260123031146_Aj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T03:11:46.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20260123020942_AddStatusToGift.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Migrations\\20260123020942_AddStatusToGift.cs",
+              "RelativeDocumentMoniker": "server_API\\Migrations\\20260123020942_AddStatusToGift.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Migrations\\20260123020942_AddStatusToGift.cs",
+              "RelativeToolTip": "server_API\\Migrations\\20260123020942_AddStatusToGift.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T02:09:42.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20260122224948_RemovePurchasersCountOnly.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\\u200F\u200F\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA \u05DB\u05D9\u05EA\u05D4 - \u05E2\u05D5\u05EA\u05E7\\server_API\\server_API\\Migrations\\20260122224948_RemovePurchasersCountOnly.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u200F\u200F\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA \u05DB\u05D9\u05EA\u05D4 - \u05E2\u05D5\u05EA\u05E7\\server_API\\server_API\\Migrations\\20260122224948_RemovePurchasersCountOnly.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\\u200F\u200F\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA \u05DB\u05D9\u05EA\u05D4 - \u05E2\u05D5\u05EA\u05E7\\server_API\\server_API\\Migrations\\20260122224948_RemovePurchasersCountOnly.cs",
+              "RelativeToolTip": "..\\..\\\u200F\u200F\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA \u05DB\u05D9\u05EA\u05D4 - \u05E2\u05D5\u05EA\u05E7\\server_API\\server_API\\Migrations\\20260122224948_RemovePurchasersCountOnly.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T22:49:48.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20260123005339_addImagetogift.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Migrations\\20260123005339_addImagetogift.cs",
+              "RelativeDocumentMoniker": "server_API\\Migrations\\20260123005339_addImagetogift.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Migrations\\20260123005339_addImagetogift.cs",
+              "RelativeToolTip": "server_API\\Migrations\\20260123005339_addImagetogift.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T00:53:40.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20260122224246_RemovePurchasersCountFromGifts.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\\u200F\u200F\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA \u05DB\u05D9\u05EA\u05D4 - \u05E2\u05D5\u05EA\u05E7\\server_API\\server_API\\Migrations\\20260122224246_RemovePurchasersCountFromGifts.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u200F\u200F\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA \u05DB\u05D9\u05EA\u05D4 - \u05E2\u05D5\u05EA\u05E7\\server_API\\server_API\\Migrations\\20260122224246_RemovePurchasersCountFromGifts.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\\u200F\u200F\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA \u05DB\u05D9\u05EA\u05D4 - \u05E2\u05D5\u05EA\u05E7\\server_API\\server_API\\Migrations\\20260122224246_RemovePurchasersCountFromGifts.cs",
+              "RelativeToolTip": "..\\..\\\u200F\u200F\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA \u05DB\u05D9\u05EA\u05D4 - \u05E2\u05D5\u05EA\u05E7\\server_API\\server_API\\Migrations\\20260122224246_RemovePurchasersCountFromGifts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T22:42:46.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "server_API.csproj",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\server_API.csproj",
+              "RelativeDocumentMoniker": "server_API\\server_API.csproj",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\server_API.csproj",
+              "RelativeToolTip": "server_API\\server_API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-22T23:50:58.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20260122225902_RemovePurchasersCountFromGifts.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Migrations\\20260122225902_RemovePurchasersCountFromGifts.cs",
+              "RelativeDocumentMoniker": "server_API\\Migrations\\20260122225902_RemovePurchasersCountFromGifts.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Migrations\\20260122225902_RemovePurchasersCountFromGifts.cs",
+              "RelativeToolTip": "server_API\\Migrations\\20260122225902_RemovePurchasersCountFromGifts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T22:59:02.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "G:\\WebApplication1\\WebApplication1\\DTO\\Auth\\LoginDTO.cs",
+              "ToolTip": "G:\\WebApplication1\\WebApplication1\\DTO\\Auth\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T15:31:32.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20251229175719_gg.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Migrations\\20251229175719_gg.cs",
+              "RelativeDocumentMoniker": "server_API\\Migrations\\20251229175719_gg.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\Migrations\\20251229175719_gg.cs",
+              "RelativeToolTip": "server_API\\Migrations\\20251229175719_gg.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T17:57:20.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\appsettings.json",
+              "RelativeDocumentMoniker": "server_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\appsettings.json",
+              "RelativeToolTip": "server_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-29T14:17:43.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Microsoft.NET.EolTargetFrameworks.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswB8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-12-29T15:54:10.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "G:\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
+              "ToolTip": "G:\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T15:32:14.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20251229141302_aaa.cs",
+              "DocumentMoniker": "C:\\Users\\329111975\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\server_API\\server_API\\Migrations\\20251229141302_aaa.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\329111975\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\server_API\\server_API\\Migrations\\20251229141302_aaa.cs",
+              "ToolTip": "C:\\Users\\329111975\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\server_API\\server_API\\Migrations\\20251229141302_aaa.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\329111975\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\server_API\\server_API\\Migrations\\20251229141302_aaa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T14:13:03.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IGiftBLL.cs",
+              "DocumentMoniker": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\BLL\\IGiftBLL.cs",
+              "RelativeDocumentMoniker": "server_API\\BLL\\IGiftBLL.cs",
+              "ToolTip": "C:\\Users\\l0583\\Desktop\\WEBAPI\\server_API\\server_API\\BLL\\IGiftBLL.cs",
+              "RelativeToolTip": "server_API\\BLL\\IGiftBLL.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T21:22:19.737Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+﻿using api_server.Model;
+using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using server_API.BLL;
+using server_API.DAL;
+using server_API.DTO;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace server_API.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class GiftsController : ControllerBase
+    {
+        private readonly IGiftBLL _giftBLL;
+        private readonly IDonorBLL _donorBLL;
+        private readonly IMapper _mapper;
+
+        public GiftsController(IGiftBLL giftBLL, IDonorBLL donorBLL, IMapper mapper)
+        {
+            _giftBLL = giftBLL;
+            _donorBLL = donorBLL;
+            _mapper = mapper;
+        }
+
+        // GET: api/gifts
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var gifts = await _giftBLL.GetAllGifts();
+            var dto = _mapper.Map<List<GiftDTO>>(gifts);
+            return Ok(dto);
+        }
+        // GET: api/gifts/5
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var gift = await _giftBLL.GetGiftById(id);
+            if (gift == null)
+                return NotFound();
+
+            var dto = _mapper.Map<GiftDTO>(gift);
+            return Ok(dto);
+        }
+
+
+
+        [HttpPost]
+        [Authorize(Roles = "manager")]
+        public async Task<IActionResult> Create(GiftDTO giftDto)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var result = await _giftBLL.AddGift(giftDto);
+
+            return CreatedAtAction(nameof(GetById),
+                new { id = result.Id },
+                result);
+        }
+
+
+        [HttpPut("{id}")]
+        [Authorize(Roles = "manager")]
+        public async Task<IActionResult> Update(int id, GiftDTO dto)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var updatedGift = await _giftBLL.UpdateGift(id, dto);
+            if (updatedGift == null)
+                return NotFound();
+            return Ok(updatedGift);
+        }
+
+
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "manager")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                await _giftBLL.DeleteGift(id);
+                return NoContent(); // 204
+            }
+            catch (KeyNotFoundException)
+            {
+                return NotFound(); // 404 אם לא קיים מראש
+            }
+        }
+
+
+
+        [HttpGet("search")]
+        public async Task<IActionResult> Search([FromQuery] string giftName = null, [FromQuery] string donorName = null, [FromQuery] int? minPurchasers = null)
+        {
+            var results = await _giftBLL.SearchGifts(giftName, donorName, minPurchasers);
+            var dto = _mapper.Map<List<GiftDTO>>(results);
+            return Ok(dto);
+        }
+    }
+}

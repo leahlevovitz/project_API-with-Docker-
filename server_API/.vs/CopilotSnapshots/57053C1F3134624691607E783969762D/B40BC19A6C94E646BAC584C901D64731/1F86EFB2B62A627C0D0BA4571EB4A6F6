@@ -1,0 +1,59 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using WebApplication1.BLL.interfaces;
+using WebApplication1.DTO;
+
+namespace WebApplication1.Controllers
+{
+    //[Authorize(Roles = "manager")]
+    [Route("api/[controller]")]
+    [ApiController]
+    public class LotteryController : ControllerBase
+    {
+        private readonly ILotteryBLL _lotteryService;
+
+        public LotteryController(ILotteryBLL lotteryService)
+        {
+            _lotteryService = lotteryService;
+        }
+
+        [HttpPost("draw/{giftId}")]
+        public async Task<IActionResult> DrawLottery(int giftId)
+        {
+            try
+            {
+                var winner = await _lotteryService.PerformLotteryAsync(giftId);
+                var winnerDto = new LotteryDTO
+                {
+                    GiftId = winner.GiftId,
+                    UserId = winner.UserId,
+                    LotteryDate = winner.LotteryDate,
+                };
+
+                return Ok("הוגרל בהצלחה");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpGet("{giftId}/winners")]
+        public async Task<IActionResult> GetWinnersForGift(int giftId)
+        {
+            var winners = await _lotteryService.GetWinnersForGiftAsync(giftId);
+
+            if (winners == null || winners.Count == 0)
+                return NotFound("אין זוכים עבור מתנה זו");
+
+            return Ok(winners);
+        }
+
+        [HttpGet("report")]
+        public async Task<IActionResult> GetReport()
+        {
+            var result = await _lotteryService.GetAllGiftsWithWinnersAsync();
+            return Ok(result);
+        }
+
+    }
+}

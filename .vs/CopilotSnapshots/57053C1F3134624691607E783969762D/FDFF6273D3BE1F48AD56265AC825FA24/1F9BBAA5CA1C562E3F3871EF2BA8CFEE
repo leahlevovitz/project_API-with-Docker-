@@ -1,0 +1,110 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using server_API.BLL;
+using server_API.DTO;
+using System.Security.Claims;
+
+namespace server_API.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+   
+    public class PurchasersController : ControllerBase
+    {
+        private readonly IPurchaserBLL _bll;
+
+        public PurchasersController(IPurchaserBLL bll)
+        {
+            _bll = bll;
+        }
+
+        // ------------------------------------
+        // צפייה בכל הרכישות (לא טיוטות)
+        // sortBy: price | count
+        // ------------------------------------
+        [HttpGet]
+        public async Task<ActionResult<List<PurchaserDTO>>> GetAll(
+            [FromQuery] string? sortBy = null)
+        {
+            var result = await _bll.GetAll(sortBy);
+            return Ok(result);
+        }
+
+        // ------------------------------------
+        // צפייה ברכישות לפי מתנה
+        // ------------------------------------
+        [HttpGet("by-gift")]
+        public async Task<ActionResult<List<PurchaserDTO>>> GetByGift(
+            int? giftId,
+            [FromQuery] string? sortBy = null)
+        {
+            var result = await _bll.GetByGift(giftId, sortBy);
+            return Ok(result);
+        }
+
+        // ------------------------------------
+        // צפייה ברכישה בודדת
+        // ------------------------------------
+        [HttpGet("{id}")]
+        public async Task<ActionResult<PurchaserDTO>> GetById(int id)
+        {
+            var purchaser = await _bll.GetById(id);
+
+            if (purchaser == null)
+                return NotFound();
+
+            return Ok(purchaser);
+        }
+        [HttpGet("total-revenue")]
+        public async Task<IActionResult> GetTotalRevenue()
+        {
+            var result = await _bll.GetTotalRevenue();
+            return Ok(result);
+        }
+        [HttpPost]
+        [Authorize(Roles = "client")]
+        public async Task<IActionResult> AddMultiple([FromBody] IEnumerable<PurchaserDTO> dtos)
+        {
+            if (dtos == null || !dtos.Any())
+            {
+                return BadRequest("The list of purchasers cannot be empty.");
+            }
+
+            await _bll.Add(dtos);
+            return Ok(new { message = "Purchases added successfully" });
+        }
+
+        [HttpPost("Basket")]
+        [Authorize(Roles = "client")]
+        public async Task<IActionResult> AddToBasket([FromBody] PurchaserDTO dto)
+        {
+            await _bll.AddToBasket(dto);
+            return Ok();
+        }
+        [HttpGet("basket")]
+        [Authorize(Roles = "client")]
+        public async Task<ActionResult<List<PurchaserDTO>>> GetBasket()
+        {
+            // שולח את ה-UserId של המשתמש שנמצא ב-JWT
+            var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userIdClaim))
+                return Unauthorized();
+
+            int userId = int.Parse(userIdClaim);
+
+            var basketItems = await _bll.GetBasketByUser(userId);
+            return Ok(basketItems);
+        }
+
+        // ------------------------------------
+        // מחיקת רכישה (רק טיוטא)
+        // ------------------------------------
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "client")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _bll.Delete(id);
+            return NoContent();
+        }
+    }
+}
